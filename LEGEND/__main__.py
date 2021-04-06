@@ -65,12 +65,12 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """                   
-Hello there, I'm [𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓](https://telegra.ph/file/581295fcf392bb13dd0d6.jpg)
+Hello there, I'm [SWAG MANAGER](https://telegra.ph/file/581295fcf392bb13dd0d6.jpg)
 I am an anime Themed Group Managing Bot and I will help in managing your group\n
 
 ✪ Make sure you read *INFO* Section Below ✪ \n
 
-𝐌𝐘 𝐆𝐎𝐃 - [丂卂爪乇乇尺](t.me/SAMEER_795)
+𝐌𝐘 𝐆𝐎𝐃 - [CAPSWAG](t.me/CAPSWAG009)
 """
               
 buttons = [
@@ -82,15 +82,15 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add SAVAGE BOT to your group 💫",
-            url="t.me/SAVAGE_MANAGER_BOT?startgroup=true",
+            text="💫 Add SWAG MANAGER BOT to your group 💫",
+            url="t.me/SWAGMANAGERBOT?startgroup=true",
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [SAVAGE BOT](https://telegra.ph/file/177228bdfd09ae95d34a6.jpg)
+*Main Commands :* [SWAG BOT](https://telegra.ph/file/177228bdfd09ae95d34a6.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -105,7 +105,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [N](t.me/SAVAGE_MANAGEMENT_BOT,[SAMEER](t.me/SAMEER_795),"""
+Support them  [N](t.me/SWAGMANAGERBOT,[CAPSWAG](t.me/CAPSWAG0090),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -399,7 +399,7 @@ def LEGEND_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [support](https://t.me/savage_management_bot).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [support](https://t.me/SWAGMANAGERBOT).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -478,13 +478,13 @@ def LEGEND_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @SAMEER_795 spending many sleepless nights.. So, Respect it."
+            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @CAPSWAG009 spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n✪ If you need to ask anything about \n  this bot, Go @SAVAGE_MANAGEMENT_BOT."
+            f"\n✪ If you need to ask anything about \n  this bot, Go @SWAGMANAGERBOT."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of SAVAGE Bot we are not resposible for anything."
-            f"\n\nFor any kind of help, related to this bot, Join @SAVAGE_MANAGEMENT_BOT."
+            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of SWAG Bot we are not resposible for anything."
+            f"\n\nFor any kind of help, related to this bot, Join @SWAGMANAGERBOT."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -540,7 +540,7 @@ def get_help(update, context):
                     [
                         InlineKeyboardButton(
                             text="Support Chat",
-                            url="https://t.me/SAVAGE_MANAGEMENT_BOT".format(SUPPORT_CHAT),
+                            url="https://t.me/SWAGMANAGERBOT".format(SUPPORT_CHAT),
                         )
                     ],
                 ]
